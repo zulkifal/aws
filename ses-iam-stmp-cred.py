@@ -1,4 +1,4 @@
-# Amazon SES support two interfaces; SMTP and HTTP
+# Amazon SES supports two interfaces; SMTP and HTTP
 # HTTP interface can be used with regular IAM access/secret key pair but SMTP interface requires special credentials
 # SMTP credentails can be obtained by either going to SES console or converting existing IAM secret key to SMTP secret key
 # This sample python code converts IAM secret key to SMTP secret key. Access key stays the same for HTTP and SMTP.
@@ -15,8 +15,8 @@ msg  = "SendRawEmail"
 ver = chr(2)
 
 # get hmac, append digest to ver and primt smtp-secret
-dig = hmac.new(key, msg, hashlib.sha256).digest()
-signatureAndVer = ver + dig
+signature = hmac.new(key, msg, hashlib.sha256).digest()
+signatureAndVer = ver + signature
 smtpsecret = base64.b64encode(signatureAndVer)
 
 print(smtpsecret)
