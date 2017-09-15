@@ -16,5 +16,8 @@ PHP:
 Java:
 - Retrieve an encrypted email from S3 bucket: get-encrypted-mail.java
 
+Ruby:
+- Retrieve an encrypted email from S3 bucket: get-encrypted-mail.rb
+
 WARNING: These samples are not meant to be used in production, please test the code in a staging environment and make
  necessary changes to make it production ready.
