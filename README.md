@@ -10,7 +10,7 @@ Python:
 - Convert IAM sercet to SMTP secret for SES: ses-iam-stmp-cred.py
 
 PHP:
-
+- Convert IAM sercet to SMTP secret for SES: ses-iam-stmp-cred.php
 
 WARNING: These samples are not meant to be used in production, please test the code in a staging environment and make
  necessary changes to make it production ready.
