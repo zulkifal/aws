@@ -9,6 +9,7 @@ I will keep on adding more and more tools as we go along.
 
 Python:
 - Convert IAM sercet to SMTP secret for SES: ses-iam-stmp-cred.py
+- S3 Cross-account Object upload - Make Object owner same as Bucket owner: s3-change-object-owner.py
 
 PHP:
 - Convert IAM sercet to SMTP secret for SES: ses-iam-stmp-cred.php
