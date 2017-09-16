@@ -16,13 +16,13 @@ Python:
 
 PHP:
 - Convert IAM sercet to SMTP secret for SES: ses-iam-stmp-cred.php
-- Send email with attachments via SES' RESTAPI: send-raw-email.php
+- Send email with attachments via SES' RESTAPI: ses-send-raw-email.php
 
 Java:
-- Retrieve an encrypted email from S3 bucket: get-encrypted-mail.java
+- Retrieve an encrypted email from S3 bucket: s3-get-encrypted-mail.java
 
 Ruby:
-- Retrieve an encrypted email from S3 bucket: get-encrypted-mail.rb
+- Retrieve an encrypted email from S3 bucket: s3-get-encrypted-mail.rb
 
 WARNING: These samples are not meant to be used in production, please test the code in a staging environment and make
  necessary changes to make them production ready.
