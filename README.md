@@ -7,6 +7,9 @@ Most of these scripts will be calling one or two APIs to solve a few particular 
  
 I will keep on adding more and more tools as we go along.
 
+Bash:
+- SES - Test credentials and network: ses-test.sh
+
 Python:
 - Convert IAM sercet to SMTP secret for SES: ses-iam-stmp-cred.py
 - S3 Cross-account Object upload - Make Object owner same as Bucket owner: s3-change-object-owner.py
