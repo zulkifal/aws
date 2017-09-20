@@ -7,7 +7,7 @@ This sample python script is put in a lambda function, the function is invoked f
 obejcts that are not owned by itself. After over-write, account A is owner of new objectes uploaded by account B.
 
 Pre-requisites:
-- Lambda function should have this policy: lambda-iam-role-policy-1.json
+- Lambda function should have this policy: aws/lambda-iam-role-policy-1.json
 - When object is uploaded, bucket owner must be given Full-Control over that object via ACLs
 '''
 from __future__ import print_function
