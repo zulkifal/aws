@@ -27,7 +27,7 @@ echo "Subject: Email from SES test Script" >> /tmp/ses-test-message
 echo "" >> /tmp/ses-test-message
 echo "Hi, this is a test email from bash script." >> /tmp/ses-test-message
 
-# check is to: email address is set
+# check if to: email address is set
 if [ ! -z $5 ]
 then
 	# send to provided destination email address
