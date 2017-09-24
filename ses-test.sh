@@ -17,7 +17,7 @@ then
 	exit 1
 fi
 
-# check is curl is installed
+# check if curl is installed
 type curl >/dev/null 2>&1 || { echo >&2 "I require curl but it's not installed.  Aborting."; exit 1; }
 
 # create sample email
